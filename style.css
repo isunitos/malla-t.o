@@ -20,7 +20,7 @@ h1 {
   background-color: white;
   padding: 15px;
   border-radius: 10px;
-  width: 220px;
+  width: 230px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
@@ -30,25 +30,18 @@ h1 {
 }
 
 .course {
-  background-color: #dbeafe;
-  margin: 5px 0;
+  margin: 6px 0;
   padding: 8px;
   border-radius: 6px;
   font-size: 14px;
   cursor: pointer;
-  transition: transform 0.2s;
+  transition: all 0.2s ease-in-out;
+  color: #111;
 }
 
 .course:hover {
-  background-color: #93c5fd;
   transform: scale(1.03);
+  filter: brightness(1.05);
 }
 
-/* Tipos de cursos */
-.tipo-fundamento { background-color: #fde68a; }
-.tipo-habilidad   { background-color: #bbf7d0; }
-.tipo-etica       { background-color: #fca5a5; }
-.tipo-ciencia     { background-color: #a5f3fc; }
-.tipo-biologia    { background-color: #a7f3d0; }
-.tipo-social      { background-color: #c4b5fd; }
-
+/* Col
