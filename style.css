@@ -1,1 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.semester {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 220px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.semester h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.course {
+  background-color: #dbeafe;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.course:hover {
+  background-color: #93c5fd;
+  transform: scale(1.03);
+}
+
+/* Tipos de cursos */
+.tipo-fundamento { background-color: #fde68a; }
+.tipo-habilidad   { background-color: #bbf7d0; }
+.tipo-etica       { background-color: #fca5a5; }
+.tipo-ciencia     { background-color: #a5f3fc; }
+.tipo-biologia    { background-color: #a7f3d0; }
+.tipo-social      { background-color: #c4b5fd; }
 
